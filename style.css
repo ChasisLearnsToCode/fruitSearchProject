@@ -1,0 +1,51 @@
+
+body {
+  /* background: linear-gradient(0.25turn,#e3b434,#db9d32,#de580b); */
+  background: linear-gradient(0.25turn, #b134e3, #9557ad, #490663);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.search-container {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 490px;
+}
+
+input {
+  padding: 20px;
+  font-size: 20px;
+  width: 100%;
+  border: none;
+  background-color: rgba(245, 241, 241, 0.176);
+ }
+
+.suggestions {
+  display: none;
+  width: 100%;
+  font-size: 20px;
+  background-color: rgba(245, 241, 241, 0.176);
+  border: none;
+  max-height: 200px;
+  overflow-y: auto;
+  padding: 20px;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none; /*Removes bullet points*/
+  padding: 0;
+  margin: 0;
+}
+
+.highlight {
+  font-weight: bold;
+}
+
+li {
+  padding-bottom: 7px;
+}
